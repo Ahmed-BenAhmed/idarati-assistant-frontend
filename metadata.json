@@ -1,0 +1,7 @@
+{
+  "name": "Idarati Assistant - Moroccan GovTech AI",
+  "description": "A sophisticated administrative assistant for Moroccan citizens, providing step-by-step guidance on administrative procedures based on Law 55.19 and idarati.ma data.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
