@@ -57,10 +57,10 @@ export const apiClient = {
       body: JSON.stringify({
         prompt: request.prompt,
         match_threshold: request.match_threshold ?? 0.5,
-        match_count: request.match_count ?? 3,
+        match_count: request.match_count ?? 5,
         embedding_model: request.embedding_model,
-        "generation_provider": "llama3-local",
-        "generation_model": "Meta-Llama-3.1-8B-Instruct-Q4_K_S.gguf"
+        "generation_provider": "qwen",
+        "generation_model": "qwen"
       }),
     });
 

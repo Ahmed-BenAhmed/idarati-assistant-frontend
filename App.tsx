@@ -42,7 +42,6 @@ const AppContent: React.FC = () => {
     setMessages(prev => [...prev, userMsg]);
 
     try {
-      // gemini or atlasia 
       const result = await askMutation.mutateAsync({
         prompt: text,
         match_threshold: 0.5,
